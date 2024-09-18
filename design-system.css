@@ -1,0 +1,168 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e9d8a6; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #005f73; 
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #005f73; 
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #2d2d2d;
+}
+
+blockquote {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    border-left: 4px solid #005f73; 
+    font-style: italic;
+}
+
+.color-swatch {
+    padding: 1rem;
+    margin: 1rem 0;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.primary-color {
+    background-color: #005f73;
+}
+
+.accent-color {
+    background-color: #0a9396; 
+}
+
+.background-color {
+    background-color: #e9d8a6;
+    color: #2d2d2d;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #005f73;
+    color: #fff;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #005f73; 
+    border: 2px solid #005f73;
+}
+
+.btn-clear {
+    background-color: transparent;
+    color: #005f73; 
+    text-decoration: underline;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.flexbox-item {
+    flex: 1;
+    padding: 1rem;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    padding: 1rem;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #005f73;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
