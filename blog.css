@@ -1,0 +1,156 @@
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    .author-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .author-info img {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .blog-post h2 {
+        font-size: 1.5rem;
+    }
+
+    .blog-post p {
+        font-size: 0.9rem;
+    }
+}
+
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #e9d8a6; 
+    color: #2d2d2d;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.blog-post h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.post-date {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    margin: 0.5rem 0;
+}
+
+blockquote {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    border-left: 4px solid #1a73e8;
+    font-style: italic;
+}
+
+.author-bio {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.author-bio img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.author-bio p {
+    margin: 0;
+}
+
+.social-sharing {
+    margin: 2rem 0;
+}
+
+.social-sharing ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-sharing ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-sharing ul li a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.social-sharing ul li a:hover {
+    text-decoration: underline;
+}
